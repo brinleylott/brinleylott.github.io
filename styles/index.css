@@ -8,7 +8,9 @@ header {
     padding: 13px 20px;
     font: 400 15px Inter, sans-serif;
   }
-
+body {
+  background-color: #F3F2EE;
+}
 nav {
     background-color: #bbbac1;
     /* align-self: stretch; */
@@ -270,4 +272,249 @@ nav {
   }
   footer {
     background-color: #BBBAC1;
+    padding: 50px;
   }
+
+
+  /* About Me page */
+
+  .get {
+    gap: 20px;
+    display: flex;
+  }
+
+  .know_text {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 40%;
+    margin-left: 200px;
+
+  }
+  .header_know {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    padding: 0 20px;
+  }
+  .digital {
+    color: #000;
+    margin-right: -20px;
+    font: 400 15px/18px Inter, sans-serif;
+  }
+  .h2 {
+    font-size: 32px;
+    line-height: 30px;
+  }
+  .know_content {
+    color: #000;
+    margin: 15px -20px 0 0;
+    font: 400 16px/19px Inter, sans-serif;
+    width: 80%;
+    
+  }
+
+  .know_img {
+    width: 80%;
+    margin-top: 50px;
+    /* margin-right: 100px; */
+  }
+
+
+  .about {
+    padding: 0 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+
+  .image-padding {
+    gap: 20px;
+    display: flex;
+  }
+
+
+  .words {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 41%;
+    margin-left: 0px;
+  }
+  .more_words {
+    margin-top: 300px;
+    width: 80%;
+  }
+  .image-container {
+    background-color: rgba(111, 127, 143, 0.7);
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .isaac {
+    object-fit: contain;
+    object-position: center;
+    /* width: 344px; */
+    overflow: hidden;
+    max-width: 100%;
+  }
+
+  .get_to {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 59%;
+    margin-left: 20px;
+  }
+
+  .life_content {
+    color: #000;
+    text-align: center;
+    margin: auto 0;
+    font: 400 20px/29px Inter, sans-serif;
+  }
+
+/* Portfolio */
+
+.chamber {
+  gap: 20px;
+  display: flex;
+}
+
+
+.chamber_img_container {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 55%;
+  margin-left: 0px;
+}
+
+.chamber_img {
+  margin: 0;
+  object-fit: contain;
+  object-position: center;
+  width: 90%;
+  overflow: hidden;
+  /* max-width: 600px; */
+}
+
+.chamber_info {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 45%;
+  margin-left: 20px;
+}
+
+.chamber_words {
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  padding: 0 20px;
+}
+
+.chamber-title {
+  color: #000;
+  margin-right: -20px;
+  white-space: nowrap;
+  font: 400 36px/44px Inter, sans-serif;
+}
+.chamber-description {
+  color: #000;
+  margin: 27px -20px 0 0;
+  font: 400 20px/24px Inter, sans-serif;
+}
+
+.chamber-link {
+  color: #000;
+  white-space: nowrap;
+  margin: 22px -20px 0 0;
+  font: 400 16px/19px Inter, sans-serif;
+}
+
+.wdd_description {
+  gap: 20px;
+  display: flex;
+}
+
+@media (max-width: 991px) {
+  .wdd_description {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0px;
+  }
+}
+
+.description_column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 46%;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .description {
+    width: 100%;
+  }
+}
+
+.portfolio-heading {
+  color: #000;
+  margin-right: -20px;
+  white-space: nowrap;
+  font: 400 32px/39px Inter, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .portfolio-heading {
+    max-width: 100%;
+    white-space: initial;
+  }
+}
+
+.portfolio-description {
+  color: #000;
+  margin: 29px -20px 0 0;
+  font: 400 20px/24px Inter, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .portfolio-description {
+    max-width: 100%;
+  }
+}
+
+.column-2 {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 54%;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .column-2 {
+    width: 100%;
+  }
+}
+
+.portfolio-image {
+  margin: 0;
+  object-fit: contain;
+  object-position: center;
+  width: 90%;
+  overflow: hidden;
+  /* max-width: 630px; */
+}
+
+@media (max-width: 991px) {
+  .portfolio-image {
+    max-width: 100%;
+  }
+}
