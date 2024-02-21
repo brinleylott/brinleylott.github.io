@@ -15,7 +15,7 @@ nav {
     background-color: #bbbac1;
     /* align-self: stretch; */
     display: flex;
-    padding: 0 20px;
+    padding: 20px;
     justify-content: space-evenly;
     align-items: center;
     margin: 0;
@@ -379,6 +379,39 @@ nav {
   }
 
 /* Portfolio */
+
+.portfolio_title {
+  text-align: center;
+}
+
+.gd_project1 {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.garden_p{
+  /* width: 45%; */
+  margin-left: 40px;
+  /* margin-top: 50px; */
+  color: #000;
+  /* margin: 27px -20px 0 0; */
+  font: 400 20px/24px Inter, sans-serif;
+}
+.garden_h3 {
+  color: #000;
+  margin-left: 40px;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  font: 400 36px/44px Inter, sans-serif;
+
+}
+
+.farytailGarden {
+  width: 30%;
+  margin-left: 230px;
+}
 
 .chamber {
   gap: 20px;
