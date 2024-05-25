@@ -101,6 +101,23 @@ nav {
     justify-content: space-between;
     gap: 20px;
   }
+  .my-work {
+    background-color: #9b8067;
+    padding: 2%;
+  }
+  .my-work h2 {
+    color: #F3F2EE;
+  }
+  .project-title {
+    background-color: #9b8067;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .project-title h3 {
+    margin: 0;
+    color: #F3F2EE;
+  }
   .my_work_button {
     color: #fff;
     text-align: center;
@@ -124,26 +141,29 @@ nav {
  .chamberimg {
   width: 25%;
   border-radius: 50% 50% 0 0 ;
-  outline: #6f7f8f;
-  outline-width: 2px;
-  outline-style: solid;
+  box-shadow: 10px 10px 5px #3f3e3e;
+  /* outline: #6f7f8f; */
+  /* outline-width: 2px;
+  outline-style: solid; */
  }
  .stylestage {
   width: 25%;
   border-radius: 50% 50% 0 0 ;
   height: 290px;
-  outline: #6f7f8f;
-  outline-width: 2px;
-  outline-style: solid;
+  box-shadow: 10px 10px 5px #3f3e3e;
+  /* outline: #6f7f8f; */
+  /* outline-width: 2px;
+  outline-style: solid; */
 
  }
  .magazine {
   width: 25%;
   border-radius: 50% 50% 0 0 ;
   height: 290px;
-  outline: #6f7f8f;
-  outline-width: 2px;
-  outline-style: solid;
+  box-shadow: 10px 10px 5px #3f3e3e;
+  /* outline: #6f7f8f; */
+  /* outline-width: 2px;
+  outline-style: solid; */
  }
   .lets_talk {
     color: #fff;
