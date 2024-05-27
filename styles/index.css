@@ -3,10 +3,15 @@
 h1, h2, h3, a{
   font-family: 'marcellus';
 }
-p {
+p li ul{
   font-family: 'nunito';
 }
-
+p {
+  font-size: 20px;
+}
+ul {
+  font-size: 20px;
+}
 header {
     color: #000;
     /* white-space: nowrap; */
@@ -31,7 +36,7 @@ nav {
   nav a {
     text-decoration: none;
     color: #000;
-    padding-left: 4%;
+    /* padding-left: 4%; */
     padding-right: 4%;
     padding-top: 5px;
   }
@@ -160,7 +165,7 @@ nav {
     background-color: #6f7f8f;
     flex-grow: 1;
     padding: 8px 20px;
-    font: 400 16px Inter, sans-serif;
+    /* font: 400 16px Inter, sans-serif; */
     text-decoration: none;
   }
   .my_work_button:hover {
@@ -351,14 +356,50 @@ nav {
   footer {
     background-color: #BBBAC1;
     padding: 50px;
+    text-align: center;
   }
+  footer a {
+    color: black;
+    padding: 2%;
+  }
+.skillsSection {
+  padding: 2% 0 2% 0;
+  display: block;
+  justify-content: center;
+}
+.skillsSection h2,  .skillsSection p{
+    text-align: center;
+}
+.skillsSection p {
+    padding: 0 5% 0 5%;
+}
+.skillsList{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+}
+.skillsButton {
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+  padding: 1%;
+}
 
+.skillsList li {
+    list-style-type: none;
+    padding: 1% 4% 1% 4%;
+}
+.skillsList li ul {
+  padding-left: 0;
+  list-style-type: decimal;
+}
 
   /* About Me page */
 
   .get {
     gap: 20px;
     display: flex;
+    
   }
 
   .know_text {
@@ -378,23 +419,25 @@ nav {
   .digital {
     color: #000;
     margin-right: -20px;
-    font: 400 15px/18px Inter, sans-serif;
+    /* font: 400 15px/18px Inter, sans-serif; */
   }
   .h2 {
     font-size: 32px;
     line-height: 30px;
+    margin-bottom: 0;
   }
   .know_content {
     color: #000;
-    margin: 15px -20px 0 0;
-    font: 400 16px/19px Inter, sans-serif;
-    width: 80%;
-    
+    margin-top: 0;
+    /* margin: 15px -20px 0 0; */
+    /* font: 400 16px/19px Inter, sans-serif; */
+    width: 80%;   
   }
 
   .know_img {
     width: 80%;
     margin-top: 50px;
+    margin-bottom: 50px;
     /* margin-right: 100px; */
   }
 
